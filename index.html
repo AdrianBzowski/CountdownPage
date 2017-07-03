@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=BenchNine:300" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=News+Cycle" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <section class="" id="logo">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <img src="img/logo.png" class="img-fluid" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="" id="intro">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <p>We are working hard, we'll be launch in...</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="" id="counter">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="countdown"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="" id="icons">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <ul class="list-inline">
+            <li class="list-inline-item">
+              <a href="#"><i class="fa facebook fa-facebook-square fa-3x" aria-hidden="true"></i> </a>
+              <a href="#"><i class="fa youtube fa-youtube-square fa-3x" aria-hidden="true"></i></a>
+              <a href="#"><i class="fa instagram fa-instagram fa-3x" aria-hidden="true"></i></a>
+              <a href="#"><i class="fa twitter fa-twitter-square fa-3x" aria-hidden="true"></i><a/>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="" id="signup">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <form method="post" role="form" action="#signup" class="form-inline">
+            <input type="email" class="form-control form-control-sm" name="email" placeholder="Enter your email">
+            <button type="submit" class="btn btn-signup btn-sm" name="submit" value="send">Find out more</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.slim.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.countdown.js"></script>
+
+<script>
+$(function() {
+  $('.countdown').countdown({
+      date: "October 9, 2019 12:00:00"
+  });
+});
+</script>
+
+</html>

@@ -1,0 +1,95 @@
+html, body {
+  background: url("img/bg.jpeg") center center no-repeat;
+  height: 100%;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+@media (max-width:768px) {
+  #logo img {
+    width: 50%;
+  }
+  #counter .countdown {
+    font-size: 1.4em !important;
+  }
+  #icons .fa {
+    margin: 10px 0 0 !important;
+    font-size: 2em;
+  }
+  #intro p {
+    font-size: 1em !important;
+  }
+}
+
+
+#logo img {
+  padding-top: 50px;
+  color: #919191;
+  opacity: 1;
+
+}
+#intro p {
+  color: #47e3ff;
+  text-align: center;
+  font-family: 'News Cycle', sans-serif;
+  font-size: 2em;
+  margin-top: 30px;
+}
+#counter .countdown {
+  text-align: center;
+  color: #fff;
+  font-family: 'BenchNine', sans-serif;
+  font-size: 5em;
+  margin-top: 20px;
+  border-top: solid #fff;
+  border-bottom: solid #fff;
+}
+
+#icons {
+  text-align: center;
+
+}
+#icons .fa {
+  color: #fff;
+  margin:10px 15px;
+  position: relative;
+  bottom: 0;
+  transition: all 0.2s ease-in-out;
+}
+
+#icons .twitter:hover {
+  color:#6cadde;
+  bottom: 5px;
+}
+
+#icons .facebook:hover {
+  color:#3b5998;
+  bottom: 5px;
+}
+
+#icons .youtube:hover {
+  color:#bb0000;
+  bottom: 5px;
+}
+
+#icons .instagram:hover {
+  color:#fbad50;
+  bottom: 5px;
+}
+
+#signup {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#signup .form-inline {
+  display: block;
+}
+
+#signup .btn {
+  background-color: rgba(63, 207, 255, 0.8);
+  color: #fff;
+}
+#signup .btn:hover {
+  background-color: rgba(255, 0, 0, 0.5);
+}
